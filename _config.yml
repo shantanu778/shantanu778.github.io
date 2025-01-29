@@ -203,8 +203,6 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/dropdown.md
-  - _pages/external.md
-  - _pages/faq.md
   - _pages/repositories.md
   - _pages/teaching.md
   - _pages/blog.md
