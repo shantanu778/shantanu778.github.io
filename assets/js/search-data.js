@@ -389,18 +389,21 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+    },{id: "news-i-participated-in-national-hackathon-on-frontier-technology",
+          title: 'I participated in National Hackathon on Frontier Technology.',
           description: "",
           section: "News",},{id: "news-i-graduated-in-master-of-science-in-cognitive-science-from-the-university-of-trento",
           title: 'I graduated in Master of Science in Cognitive Science from the University of...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-i-started-working-as-a-machine-learning-engineer-at-eutech-systems-limited-dhaka-bangladesh",
+          title: 'I started working as a Machine Learning Engineer at Eutech Systems Limited, Dhaka,...',
+          description: "",
+          section: "News",},{id: "news-announcement-1",
+          title: 'Announcement_1',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
