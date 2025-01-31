@@ -9,9 +9,9 @@ profile:
   image: my_pro_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>shantanu.cse@std.cu.ac.bd</p>
-    <p>+393887206711</p>
-    <p>Viale Verona 33, Trento, 38122, Italy</p>
+    <p>shantanu[DOT]cse[AT]std[DOT]cu[DOT]ac[DOT]bd</p>
+    <p></p>
+    <p>Trento, 38122, Italy</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
