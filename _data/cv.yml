@@ -57,16 +57,14 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Erasmus Mundus Scholarship
+    - year: 2019
       items:
-        - Max Planck Medal
-
+        - Global Finalist in the NASA Space Apps Challenge
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Travelling, Music, Photography, Cooking, Playing Guitar
