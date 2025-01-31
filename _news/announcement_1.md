@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: I start working as a Research Assistant at Center for Mind and Brain(CIMeC), University of Tento, Rovereto
 date: 2024-02-11 10:00:00-0400
 inline: false
 related_posts: false
