@@ -15,14 +15,14 @@
       institution: University of Groningen, Groningen, The Netherlands & University of Trento, Trento, Italy
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        -
+        - 
     - title: Bachelor of Science in Computer Science and Engineering
       institution: University of Chittagong, Chittagong, Bangladesh
       year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - 
+        -
 
 - title: Work Experience
   type: time_table
@@ -31,14 +31,14 @@
       institution: CIMeC, University of Trento, Rovereto, Italy
       year: 2024-2025
       description:
-        - Description 1.
-        - Description 2.
+        - 
+        - 
     - title: Internship
       institution: Foundation Bruno Kessler, Trento, Italy
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - 
+        - 
 
     - title: Research Trainee
       institution: University of Groningen, Groningen, The Netherlands
