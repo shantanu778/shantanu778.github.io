@@ -398,8 +398,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-working-as-a-machine-learning-engineer-at-eutech-systems-limited-dhaka-bangladesh",
           title: 'I started working as a Machine Learning Engineer at Eutech Systems Limited, Dhaka,...',
           description: "",
-          section: "News",},{id: "news-announcement-1",
-          title: 'Announcement_1',
+          section: "News",},{id: "news-i-start-working-as-a-research-assistant-at-center-for-mind-and-brain-cimec-university-of-tento-rovereto",
+          title: 'I start working as a Research Assistant at Center for Mind and Brain(CIMeC),...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
