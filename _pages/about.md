@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>shantanu[DOT]cse[AT]std[DOT]cu[DOT]ac[DOT]bd</p>
-    <p></p>
     <p>Trento, 38122, Italy</p>
 
 news: true # includes a list of news items
