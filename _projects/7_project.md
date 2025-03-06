@@ -1,25 +1,14 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Offline Handwriting Recognition: Deep Neural Network Approaches
+description:
 img: assets/img/4.jpg
 importance: 1
 category: work
 related_publications: true
 ---
+Automatic Handwriting Recognition is a research field of AI which is yet to be solved. Due to the high inherent variability of handwritten text, a `one-fits-all approach' is extremely complex to identify. However, in recent years the application and combination of statistical and neural network approaches have shown promising results. In this paper, we, therefore, evaluate several approaches of digitizing offline handwritten text on two data sets, the Dead Sea Scrolls (DSS) and the IAM data set. With a focus on Deep Learning models which were used to segment lines (ARU-net), detect characters (CNN \& InceptionResNetV2) and digitize whole lines of text (encoder-decoder) we were able to achieve Character Error Rates (CER) as far as 5\% for distinct tasks. 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
