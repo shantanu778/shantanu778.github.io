@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started working as a Machine Learning Engineer at Eutech Systems Limited, Dhaka, Bangladesh
+I completed my Research Masters in Lingusitics from the University of Groningen, The Netherlands.
