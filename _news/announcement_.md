@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I start working as a Research Assistant at Center for Mind and Brain(CIMeC), University of Tento, Rovereto
+title: I start working as a Research Fellow at the Department of Information Engineering and Computer Science, University of Tento, Italy
 date: 2025-08-01 10:00:00-0400
 inline: false
 related_posts: false
