@@ -382,16 +382,24 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-i-participated-in-national-hackathon-on-frontier-technology",
-          title: 'I participated in National Hackathon on Frontier Technology.',
-          description: "",
-          section: "News",},{id: "news-i-graduated-in-master-of-science-in-cognitive-science-from-the-university-of-trento",
-          title: 'I graduated in Master of Science in Cognitive Science from the University of...',
+    },{id: "news-i-stepted-into-career-life-in-middaydreams-chattogram-bangladesh-as-a-python-developer",
+          title: 'I stepted into career life in Middaydreams, Chattogram, Bangladesh as a Python Developer....',
           description: "",
           section: "News",},{id: "news-i-started-working-as-a-machine-learning-engineer-at-eutech-systems-limited-dhaka-bangladesh",
           title: 'I started working as a Machine Learning Engineer at Eutech Systems Limited, Dhaka,...',
           description: "",
+          section: "News",},{id: "news-i-graduated-in-master-of-science-in-cognitive-science-from-the-university-of-trento",
+          title: 'I graduated in Master of Science in Cognitive Science from the University of...',
+          description: "",
+          section: "News",},{id: "news-i-completed-my-research-masters-in-lingusitics-from-the-university-of-groningen-the-netherlands",
+          title: 'I completed my Research Masters in Lingusitics from the University of Groningen, The...',
+          description: "",
           section: "News",},{id: "news-i-start-working-as-a-research-assistant-at-center-for-mind-and-brain-cimec-university-of-tento-rovereto",
+          title: 'I start working as a Research Assistant at Center for Mind and Brain(CIMeC),...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_/";
+            },},{id: "news-i-start-working-as-a-research-assistant-at-center-for-mind-and-brain-cimec-university-of-tento-rovereto",
           title: 'I start working as a Research Assistant at Center for Mind and Brain(CIMeC),...',
           description: "",
           section: "News",handler: () => {
