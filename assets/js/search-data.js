@@ -399,8 +399,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-i-start-working-as-a-research-assistant-at-center-for-mind-and-brain-cimec-university-of-tento-rovereto",
-          title: 'I start working as a Research Assistant at Center for Mind and Brain(CIMeC),...',
+            },},{id: "news-i-start-working-as-a-research-fellow-at-the-department-of-information-engineering-and-computer-science-university-of-tento-italy",
+          title: 'I start working as a Research Fellow at the Department of Information Engineering...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_/";
