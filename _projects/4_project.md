@@ -1,25 +1,16 @@
 ---
 layout: page
-title: project 4
+title: Offline Handwriting Recognition: Deep Neural Network Approaches
 description: another without an image
-img:
+img: assets/img/line-segmentation.png
+redirect: https://github.com/shantanu778/hand_written_recognition_task_12
 importance: 3
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+Automatic Handwriting Recognition is a research field of AI which is yet to be solved. Due to the high inherent variability of hand-written text, a ‘one-fits-all approach’ is extremely complex to identify. However, in recent years the application and combination of statistical and neural network approaches have shown promising results. In this
+paper, we, therefore, evaluate several approaches of digitizing offline handwritten text on two data sets, the Dead Sea Scrolls (DSS) and the IAM data set. With a focus on Deep Learning models which were used to segment line (ARU-net), detect characters (CNN & InceptionRes-NetV2) and digitize whole lines of text (encoder-decoder) we were able to achieve Character Error Rates (CER) as far as 5% for distinct tasks.
+<!-- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -30,24 +21,18 @@ To give your project a background in the portfolio page, just add the img tag to
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Overview of the Line Segmentation Pipeline.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/line-segmentation.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -57,7 +42,8 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+</div> -->
+
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
@@ -78,3 +64,5 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+To read the whole Article <a href="https://drive.google.com/file/d/1ZLKMhI-aQS9EtKKoM961NYxakvSpPV6d/view?usp=sharing"> Click here.. </a>
