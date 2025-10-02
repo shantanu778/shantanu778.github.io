@@ -3,7 +3,7 @@ layout: page
 title: Offline Handwriting Recognition: Deep Neural Network Approaches
 description:
 img: assets/img/4.jpg
-importance: 1
+importance: 7
 category: work
 related_publications: true
 ---
