@@ -3,7 +3,6 @@ layout: page
 title: A comparison study of pre-trained and randomly initialized models on image and sequence data
 description: 
 img: /assets/img/RNN-CNN.png
-redirect: https://github.com/AbhishekRS4/Deep_Learning
 importance: 3
 category: work
 ---
@@ -89,3 +88,5 @@ To read the whole Article <a href="https://drive.google.com/file/d/1NdhCGbfKUkW8
 ```
 
 {% endraw %} -->
+
+<a href="https://github.com/AbhishekRS4/Deep_Learning"> Available Code </a> 
