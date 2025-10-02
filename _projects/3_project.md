@@ -1,27 +1,25 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: A comparison study of pre-trained and randomly initialized models on image and sequence data
+description: 
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://github.com/AbhishekRS4/Deep_Learning
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this paper, the effects of pre-training of deep learning models are investigated. A computer vision
+task on the identification of leaf diseases on Casava plants is performed with a pre-trained ResNet-34
+model, as well as with a ResNet-34 model using randomized weights. Additionally, a natural language
+processing task is done with sentiment analysis on Coronavirus related tweets. The sentiment analysis
+is done using a pre-trained BERT model and an untrained version of BERT. In addition to the deep
+learning approaches, two baseline models are developed as a reference for performance. As the
+baseline model, a simple CNN is used for the computer vision task and an LSTM model is used for
+the natural language processing task. The experiments clearly showed the importance of pre-training,
+with the pre-trained ResNet-34 model yielding 85.7% accuracy over the untrained 76.7%, and the
+pre-trained BERT model yielding 86.0% accuracy over the untrained 25.0%.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -63,7 +61,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Here's the code for the last row of images above: -->
 
 {% raw %}
 
