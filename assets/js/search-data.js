@@ -419,8 +419,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-",
-          title: '',
+            },},{id: "projects-offline-handwriting-recognition-deep-neural-network-approaches",
+          title: 'Offline Handwriting Recognition: Deep Neural Network Approaches',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
