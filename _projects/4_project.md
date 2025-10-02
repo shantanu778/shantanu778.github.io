@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Offline Handwriting Recognition: Deep Neural Network Approaches
+title: "Offline Handwriting Recognition: Deep Neural Network Approaches"
 description: 
 img: assets/img/line-segmentation.png
 importance: 4

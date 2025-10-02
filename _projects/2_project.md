@@ -2,7 +2,7 @@
 layout: page
 title: Explaining Machine Learning Models for Sentiment Analysis Using LIME
 description: 
-img: 
+img: assets/img/AI-XAI-9-1.webp
 importance: 2
 category: work
 giscus_comments: true
