@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: Profiles
 permalink: /people/
 title: people
 description: members of the lab or group
