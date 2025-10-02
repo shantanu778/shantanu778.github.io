@@ -12,40 +12,34 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Research Fellow
+      institution: Department of Science and Engineering, University of Trento, Povo, Italy
+      year: 2025-present
+      description:
+        - Investigating Lung Ultrasound images using Deep Learning
+        - Enhancing explainability of LLMs using XAI techniques in Medical domain
+
     - title: Research Assistant
       institution: CIMeC, University of Trento, Rovereto, Italy
       year: 2024-2025
       description:
-        - 
-        - 
+        - Investigating the alignment between Brain data and Large Language Models
+        
     - title: Internship
       institution: Foundation Bruno Kessler, Trento, Italy
       year: 2022
-      description:
-        - 
-        - 
 
     - title: Research Trainee
       institution: University of Groningen, Groningen, The Netherlands
       year: 2022
-      description:
-        - 
-        -
 
     - title: Machine Learning Engineer
       institution: Eutech Systems Limited, Dhaka, Bangladesh
       year: 2020-2021
-      description:
-        - 
-        -
 
     - title: Python Developer
       institution: Middaydreams, Chittagong, Bangladesh
       year: 2018-2019
-      description:
-        - 
-        -
-        - Masters Thesis:""
 
 - title: Education
   type: time_table
@@ -53,16 +47,10 @@
     - title: Joint Masters Degree in Language and Communication Technologies
       institution: University of Groningen, Groningen, The Netherlands & University of Trento, Trento, Italy
       year: 2023
-      description:
-        -
-        - 
+
     - title: Bachelor of Science in Computer Science and Engineering
       institution: University of Chittagong, Chittagong, Bangladesh
       year: 2018
-      description:
-        - 
-        -
-
 
   
 - title: Honors and Awards
@@ -79,3 +67,5 @@
   type: list
   contents:
     - <u>Hobbies:</u> Travelling, Music, Photography, Cooking, Playing Guitar
+
+

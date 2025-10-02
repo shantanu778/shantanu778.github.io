@@ -2,7 +2,7 @@
 layout: page
 title: Brain-LLM alignment 
 description: Investigating Correlation between Brain Activation and Lanagugae Models Representation
-img: assets/img/12.jpg
+img: assets/img/brain-llm.png
 importance: 1
 category: work
 related_publications: true
