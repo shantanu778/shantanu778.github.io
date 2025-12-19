@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I attanded on Medical AI <a href="https://sites.google.com/unitn.it/medicinai/home-page?authuser=0">workshop</a>. 
-date: 2025-08-01 10:00:00-0400
+date: 2025-12-04 10:00:00-0400
 inline: false
 related_posts: false
 ---
