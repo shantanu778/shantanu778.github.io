@@ -398,12 +398,17 @@ ninja.data = [{
           title: 'I start working as a Research Assistant at Center for Mind and Brain(CIMeC),...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-i-attanded-on-medical-ai-workshop",
+          title: 'I attanded on Medical AI workshop.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_/";
             },},{id: "news-i-start-working-as-a-research-fellow-at-the-department-of-information-engineering-and-computer-science-university-of-tento-italy",
           title: 'I start working as a Research Fellow at the Department of Information Engineering...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_/";
+              window.location.href = "/news/announcement_1/";
             },},{id: "projects-brain-llm-alignment",
           title: 'Brain-LLM alignment',
           description: "Investigating Correlation between Brain Activation and Lanagugae Models Representation",
