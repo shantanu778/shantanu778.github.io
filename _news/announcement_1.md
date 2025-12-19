@@ -1,12 +1,12 @@
 ---
 layout: post
-title: I start working as a Research Assistant at Center for Mind and Brain(CIMeC), University of Tento, Rovereto
-date: 2024-02-11 10:00:00-0400
+title: I start working as a Research Fellow at the Department of Information Engineering and Computer Science, University of Tento, Italy
+date: 2025-08-01 10:00:00-0400
 inline: false
 related_posts: false
 ---
 
-I start working as a Research Assistant at Center for Mind and Brain(CIMeC), University of Tento, Rovereto under the supervision of <a href= "https://webapps.unitn.it/du/it/Persona/PER0001015/Curriculum"> Prof. Roberto Zamparelli </a>. 
+I start another Research Fellowship at the Department of Information Engineering and Computer Science, University of Tento, Italy under the supervision of <a href="https://webapps.unitn.it/du/it/Persona/PER0204546/Curriculum">Prof. Giovanni Iacca</a> . 
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 

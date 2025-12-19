@@ -1,12 +1,12 @@
 ---
 layout: post
-title: I start working as a Research Fellow at the Department of Information Engineering and Computer Science, University of Tento, Italy
+title: I attanded on Medical AI <a href="https://sites.google.com/unitn.it/medicinai/home-page?authuser=0">workshop</a>. 
 date: 2025-08-01 10:00:00-0400
 inline: false
 related_posts: false
 ---
 
-I start another Research Fellowship at the Department of Information Engineering and Computer Science, University of Tento, Italy under the supervision of <a href="https://webapps.unitn.it/du/it/Persona/PER0204546/Curriculum">Prof. Giovanni Iacca</a> . 
+
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 

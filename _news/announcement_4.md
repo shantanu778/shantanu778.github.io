@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2020-06-01 10:00:00-0400
+date: 2023-10-11 10:00:00-0400
 inline: true
 related_posts: false
 ---
 
-I started working as a **Machine Learning Engineer** at Eutech Systems Limited, Dhaka, Bangladesh
+I completed my Research Masters in Lingusitics from the University of Groningen, The Netherlands.

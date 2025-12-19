@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-11 10:00:00-0400
+date: 2023-11-10 10:00:00-0400
 inline: true
 related_posts: false
 ---
 
-I completed my Research Masters in Lingusitics from the University of Groningen, The Netherlands.
+I graduated in Master of Science in Cognitive Science from the University of Trento.
