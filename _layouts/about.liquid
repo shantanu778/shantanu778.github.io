@@ -1,80 +1,229 @@
----
-layout: default
----
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
       {% else %}
-        {{ site.title }}
+        {% assign redirect = page.redirect | relative_url %}
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+  </head>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% include header.liquid %}
+
+    <div role="main">
+      <!-- ============================================================ -->
+      <!-- HERO SECTION                                                  -->
+      <!-- ============================================================ -->
+      <div class="home-container">
+        <section class="home-hero fade-in">
+          <div class="hero-header">
+            {% if page.profile and page.profile.image %}
+              <div class="hero-image">
+                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+                <img src="{{ profile_image_path | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}" loading="eager">
+              </div>
+            {% endif %}
+
+            <div class="hero-content">
+              <h1 class="hero-name">
+                {{ site.first_name }}<span style="font-weight: 400; opacity: 0.5;">&nbsp;</span>{{ site.last_name }}
+              </h1>
+              <p class="hero-title">{{ page.subtitle }}</p>
+
+              {% if page.tagline %}
+                <p class="hero-tagline">{{ page.tagline }}</p>
+              {% endif %}
+
+              <div class="hero-status">
+                <span class="status-dot"></span>
+                <span>{{ page.status }}</span>
+              </div>
+
+              <div class="hero-social">
+                {% if site.data.socials.email %}
+                  <a href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                {% endif %}
+                {% if site.data.socials.github_username %}
+                  <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" title="GitHub" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                {% endif %}
+                {% if site.data.socials.linkedin_username %}
+                  <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                {% endif %}
+                {% if site.data.socials.scholar_userid %}
+                  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+                    <i class="ai ai-google-scholar"></i>
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ABOUT TEXT                                                    -->
+        <!-- ============================================================ -->
+        {% if page.about_text %}
+          <section class="home-section fade-in">
+            <div class="section-header">
+              <h2>About</h2>
+            </div>
+            <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.75; max-width: 680px;">
+              {{ page.about_text | markdownify }}
+            </div>
+          </section>
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+
+        <hr class="section-divider" style="max-width: 100%;">
+
+        <!-- ============================================================ -->
+        <!-- SPLIT — TWO IDENTITIES                                       -->
+        <!-- ============================================================ -->
+        <section class="home-split fade-in" style="max-width: 100%;">
+          <div class="split-header">
+            <p class="split-label">Two dimensions, one identity</p>
+            <h2>Research × Industry</h2>
+          </div>
+
+          <div class="split-grid">
+            <!-- RESEARCH CARD -->
+            <div class="split-card research-card">
+              <div class="card-top">
+                <div class="card-icon">
+                  <i class="fa-solid fa-flask"></i>
+                </div>
+                <span class="card-label">Research</span>
+              </div>
+              <h3 class="card-heading">Academic & Scientific Work</h3>
+              <p class="card-desc">
+                Investigating the intersection of natural language processing, brain-language alignment, and healthcare AI. Focused on understanding how language models represent meaning and how this relates to human cognition.
+              </p>
+              <div class="card-tags">
+                <span class="card-tag">NLP</span>
+                <span class="card-tag">Brain–LLM Alignment</span>
+                <span class="card-tag">Multimodal Learning</span>
+                <span class="card-tag">Healthcare AI</span>
+                <span class="card-tag">XAI</span>
+              </div>
+              <div class="card-current">
+                <strong>Now:</strong> Research Fellow at University of Trento — Lung ultrasound analysis with deep learning &amp; LLM explainability
+              </div>
+              <a href="{{ '/research/' | relative_url }}" class="card-explore">
+                Explore Research <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+
+            <!-- INDUSTRY CARD -->
+            <div class="split-card industry-card">
+              <div class="card-top">
+                <div class="card-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="card-label">Industry</span>
+              </div>
+              <h3 class="card-heading">Engineering & Professional Work</h3>
+              <p class="card-desc">
+                Building production machine learning systems, developing software solutions, and applying AI to real-world problems. From Python development to ML engineering across healthcare, NLP, and computer vision.
+              </p>
+              <div class="card-tags">
+                <span class="card-tag">Machine Learning</span>
+                <span class="card-tag">Python</span>
+                <span class="card-tag">Deep Learning</span>
+                <span class="card-tag">Computer Vision</span>
+                <span class="card-tag">NLP Systems</span>
+              </div>
+              <div class="card-current">
+                <strong>Experience:</strong> ML Engineer &amp; Python Developer with industry experience in Bangladesh and research institutions in Europe
+              </div>
+              <a href="{{ '/industry/' | relative_url }}" class="card-explore">
+                Explore Industry <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <hr class="section-divider" style="max-width: 100%;">
+
+        <!-- ============================================================ -->
+        <!-- SELECTED PUBLICATIONS                                        -->
+        <!-- ============================================================ -->
+        {% if page.selected_papers %}
+          <section class="home-section fade-in" style="max-width: 100%;">
+            <div class="section-header">
+              <h2><a href="{{ '/publications/' | relative_url }}">Selected Publications</a></h2>
+              <a href="{{ '/publications/' | relative_url }}" class="section-link">View all &rarr;</a>
+            </div>
+            {% include selected_papers.liquid %}
+          </section>
         {% endif %}
+
+        <hr class="section-divider" style="max-width: 100%;">
+
+        <!-- ============================================================ -->
+        <!-- NEWS                                                          -->
+        <!-- ============================================================ -->
+        {% if page.news and site.announcements and site.announcements.enabled %}
+          <section class="home-section fade-in" style="max-width: 100%;">
+            <div class="section-header">
+              <h2><a href="{{ '/news/' | relative_url }}">News</a></h2>
+              <a href="{{ '/news/' | relative_url }}" class="section-link">View all &rarr;</a>
+            </div>
+            {% include news.liquid limit=true %}
+          </section>
+        {% endif %}
+
+        <!-- ============================================================ -->
+        <!-- SOCIAL / CONTACT                                              -->
+        <!-- ============================================================ -->
+        {% if page.social %}
+          <section class="home-section fade-in" style="max-width: 100%;">
+            <div class="section-header">
+              <h2>Contact</h2>
+            </div>
+            <div class="social">
+              <div class="contact-icons">{% include social.liquid %}</div>
+              <div class="contact-note" style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--text-muted);">{{ site.contact_note }}</div>
+            </div>
+          </section>
+        {% endif %}
+
+        {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+          {% include newsletter.liquid center=true %}
+        {% endif %}
+
       </div>
-    {% endif %}
+    </div>
 
-    <div class="clearfix">{{ content }}</div>
+    {% include footer.liquid %}
+    {% include scripts.liquid %}
 
-    <!-- News -->
-    {% if page.news and site.announcements and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+    <script>
+      // Intersection Observer for fade-in animations
+      document.addEventListener('DOMContentLoaded', function() {
+        const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-    <!-- Latest posts -->
-    {% if site.latest_posts and site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
-</div>
+        document.querySelectorAll('.fade-in').forEach(function(el) {
+          observer.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>

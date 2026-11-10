@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Brain-LLM alignment 
-description: Investigating Correlation between Brain Activation and Lanagugae Models Representation
+description: Investigating how removing linguistic properties affects the alignment between LLMs and brain responses measured via fMRI.
 img: assets/img/brain-llm.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 

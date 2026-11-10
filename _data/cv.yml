@@ -3,30 +3,32 @@
   contents:
     - name: Full Name
       value: Shantanu Nath
-    - name: Date of Birth
-      value: 27th August 1995
     - name: Languages
-      value: Bangla, English, pòco Italiano
-
+      value: Bangla, English, Italian (basic)
+    - name: Location
+      value: Trento, Italy
 
 - title: Work Experience
   type: time_table
   contents:
     - title: Research Fellow
-      institution: Department of Science and Engineering, University of Trento, Povo, Italy
-      year: 2025-present
+      institution: Department of Information Engineering and Computer Science, University of Trento, Italy
+      year: 2025–Present
       description:
-        - Investigating Lung Ultrasound images using Deep Learning
-        - Enhancing explainability of LLMs using XAI techniques in Medical domain
+        - Investigating lung ultrasound images using deep learning
+        - Enhancing explainability of LLMs using XAI techniques in the medical domain
+        - "Supervisor: Prof. Giovanni Iacca"
 
     - title: Research Assistant
-      institution: CIMeC, University of Trento, Rovereto, Italy
-      year: 2024-2025
+      institution: Center for Mind and Brain (CIMeC), University of Trento, Rovereto, Italy
+      year: 2024–2025
       description:
-        - Investigating the alignment between Brain data and Large Language Models
-        
-    - title: Internship
-      institution: Foundation Bruno Kessler, Trento, Italy
+        - Investigating the alignment between brain activation data and large language model representations
+        - Working with fMRI data and encoding models
+        - "Supervisor: Prof. Roberto Zamparelli"
+
+    - title: Research Internship
+      institution: Fondazione Bruno Kessler (FBK), Trento, Italy
       year: 2022
 
     - title: Research Trainee
@@ -35,24 +37,31 @@
 
     - title: Machine Learning Engineer
       institution: Eutech Systems Limited, Dhaka, Bangladesh
-      year: 2020-2021
+      year: 2020–2021
+      description:
+        - Designed and deployed machine learning models for production
+        - Worked on NLP and computer vision solutions
 
     - title: Python Developer
       institution: Middaydreams, Chittagong, Bangladesh
-      year: 2018-2019
+      year: 2018–2019
+      description:
+        - Developed Python-based software solutions
 
 - title: Education
   type: time_table
   contents:
-    - title: Joint Masters Degree in Language and Communication Technologies
-      institution: University of Groningen, Groningen, The Netherlands & University of Trento, Trento, Italy
-      year: 2021-2023
+    - title: Joint Master's Degree in Language and Communication Technologies
+      institution: University of Groningen, The Netherlands & University of Trento, Italy
+      year: 2021–2023
+      description:
+        - Erasmus Mundus Joint Master's Degree
+        - Research Master's in Linguistics (Groningen) and MSc in Cognitive Science (Trento)
 
-    - title: Bachelor of Science in Computer Science and Engineering
+    - title: BSc in Computer Science and Engineering
       institution: University of Chittagong, Chittagong, Bangladesh
-      year: 2014-2018
+      year: 2014–2018
 
-  
 - title: Honors and Awards
   type: time_table
   contents:
@@ -63,9 +72,24 @@
       items:
         - Global Finalist in the NASA Space Apps Challenge
 
+- title: Research Interests
+  type: list
+  contents:
+    - Natural Language Processing
+    - Brain–LLM Alignment
+    - Multimodal Learning
+    - Healthcare AI & Medical Imaging
+    - Explainable AI (XAI)
+
+- title: Technical Skills
+  type: list
+  contents:
+    - "Languages: Python, JavaScript, SQL, Bash, LaTeX"
+    - "ML/DL: PyTorch, TensorFlow, Hugging Face, scikit-learn, NLTK, spaCy"
+    - "Tools: Git, Docker, Linux, Jupyter, Weights & Biases"
+    - "Domains: NLP, Computer Vision, Medical Imaging, Data Analysis"
+
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Travelling, Music, Photography, Cooking, Playing Guitar
-
-
+    - "Hobbies: Travelling, Music, Photography, Cooking, Playing Guitar"

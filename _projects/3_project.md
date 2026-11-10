@@ -1,10 +1,10 @@
 ---
 layout: page
 title: A comparison study of pre-trained and randomly initialized models on image and sequence data
-description: 
+description: Comparing pre-trained ResNet-34 and BERT against randomly initialized counterparts on vision and NLP tasks.
 img: /assets/img/RNN-CNN.png
 importance: 3
-category: work
+category: engineering
 ---
 
 In this paper, the effects of pre-training of deep learning models are investigated. A computer vision

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Explaining Machine Learning Models for Sentiment Analysis Using LIME
-description: 
+description: Applying LIME explainability technique to understand predictions of ML classifiers trained on review data.
 img: assets/img/AI-XAI-9-1.webp
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 

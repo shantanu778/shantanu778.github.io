@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and engineering projects across NLP, computer vision, and healthcare AI.
 nav: true
-nav_order: 3
-display_categories: [work]
+nav_order: 4
+display_categories: [research, engineering]
 horizontal: false
 ---
 

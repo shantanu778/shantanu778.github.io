@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Offline Handwriting Recognition: Deep Neural Network Approaches"
-description: 
+description: Deep neural network approaches for digitizing offline handwritten text, achieving 5% CER on DSS and IAM datasets.
 img: assets/img/line-segmentation.png
 importance: 4
-category: work
+category: engineering
 ---
 
 Automatic Handwriting Recognition is a research field of AI which is yet to be solved. Due to the high inherent variability of hand-written text, a ‘one-fits-all approach’ is extremely complex to identify. However, in recent years the application and combination of statistical and neural network approaches have shown promising results. In this
