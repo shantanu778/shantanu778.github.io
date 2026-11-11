@@ -35,31 +35,6 @@ nav_order: 2
 
     <div class="timeline-item">
       <div class="timeline-header">
-        <h3 class="timeline-title">Research Fellow</h3>
-        <span class="timeline-year">2025 – 2026</span>
-      </div>
-      <p class="timeline-org">Department of Information Engineering and Computer Science, University of Trento, Italy</p>
-      <div class="timeline-desc">
-        <ul>
-          <li>Designed an end-to-end system in Python and PyTorch to classify lung ultrasound videos and evaluate model explainability</li>
-          <li>Investigated evaluation metrics for XAI methods using LIME and attention mechanisms</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-header">
-        <h3 class="timeline-title">Research Internship</h3>
-        <span class="timeline-year">2022</span>
-      </div>
-      <p class="timeline-org">Fondazione Bruno Kessler (FBK), Trento, Italy</p>
-      <div class="timeline-desc">
-        <p>Applied research at one of Italy's leading research institutions, working at the intersection of NLP and applied AI.</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-header">
         <h3 class="timeline-title">Machine Learning Engineer</h3>
         <span class="timeline-year">2020 – 2021</span>
       </div>
