@@ -93,10 +93,10 @@
 - title: Technical Skills
   type: list
   contents:
-    - "Languages: Python, JavaScript, SQL, Bash, LaTeX"
-    - "ML/DL: PyTorch, TensorFlow, Hugging Face, scikit-learn, NLTK, spaCy"
-    - "Tools: Git, Docker, Linux, Jupyter, Weights & Biases"
-    - "Domains: NLP, Computer Vision, Medical Imaging, Data Analysis"
+    - "Languages & ML Stack: Python, R, PyTorch, TensorFlow, Hugging Face, RAG, LangChain, LlamaIndex"
+    - "NLP / Computer Vision: Scikit-learn, pandas, NumPy, RNN, LSTM, Transformers, LLMs, CLIP, YOLO, LoRA, Grad-CAM, LIME"
+    - "Web & Databases: FastAPI, Streamlit, ChromaDB, MySQL, PostgreSQL, Django, JavaScript"
+    - "MLOps & Tooling: HPC, Bash, Git, Linux, Docker, Jupyter Notebooks"
 
 - title: Other Interests
   type: list

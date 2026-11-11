@@ -69,46 +69,55 @@ nav_order: 2
 
   <div class="skills-grid">
     <div class="skill-group">
-      <h4>Languages</h4>
+      <h4>Languages &amp; ML Stack</h4>
       <div class="skill-items">
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">SQL</span>
-        <span class="skill-tag">Bash</span>
-        <span class="skill-tag">LaTeX</span>
-      </div>
-    </div>
-
-    <div class="skill-group">
-      <h4>ML &amp; Deep Learning</h4>
-      <div class="skill-items">
+        <span class="skill-tag">R</span>
         <span class="skill-tag">PyTorch</span>
         <span class="skill-tag">TensorFlow</span>
         <span class="skill-tag">Hugging Face</span>
-        <span class="skill-tag">scikit-learn</span>
-        <span class="skill-tag">NLTK</span>
-        <span class="skill-tag">spaCy</span>
+        <span class="skill-tag">RAG</span>
+        <span class="skill-tag">LangChain</span>
+        <span class="skill-tag">LlamaIndex</span>
       </div>
     </div>
 
     <div class="skill-group">
-      <h4>Tools &amp; Platforms</h4>
+      <h4>NLP / Computer Vision</h4>
       <div class="skill-items">
+        <span class="skill-tag">Scikit-learn</span>
+        <span class="skill-tag">Transformers</span>
+        <span class="skill-tag">LLMs</span>
+        <span class="skill-tag">CLIP</span>
+        <span class="skill-tag">YOLO</span>
+        <span class="skill-tag">LoRA</span>
+        <span class="skill-tag">Grad-CAM</span>
+        <span class="skill-tag">LIME</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h4>Web &amp; Databases</h4>
+      <div class="skill-items">
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">Streamlit</span>
+        <span class="skill-tag">ChromaDB</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">Django</span>
+        <span class="skill-tag">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h4>MLOps &amp; Tooling</h4>
+      <div class="skill-items">
+        <span class="skill-tag">HPC</span>
+        <span class="skill-tag">Bash</span>
         <span class="skill-tag">Git</span>
-        <span class="skill-tag">Docker</span>
         <span class="skill-tag">Linux</span>
+        <span class="skill-tag">Docker</span>
         <span class="skill-tag">Jupyter</span>
-        <span class="skill-tag">Weights &amp; Biases</span>
-      </div>
-    </div>
-
-    <div class="skill-group">
-      <h4>Domains</h4>
-      <div class="skill-items">
-        <span class="skill-tag">NLP</span>
-        <span class="skill-tag">Computer Vision</span>
-        <span class="skill-tag">Medical Imaging</span>
-        <span class="skill-tag">Data Analysis</span>
       </div>
     </div>
   </div>
