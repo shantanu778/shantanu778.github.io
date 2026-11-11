@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://shantanu-nath.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://shantanu778.github.io/sitemap.xml
