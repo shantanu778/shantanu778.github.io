@@ -26,20 +26,28 @@
   },
   "work": [
     {
+      "name": "Trakti",
+      "position": "ML & AI Engineer",
+      "startDate": "2026-08-01",
+      "summary": "Engineered end-to-end multi-document summarization pipelines, built production RAG systems with hybrid search, and developed continuous LLM evaluation frameworks using RAGAS and TruLens.",
+      "highlights": ["LangChain", "RAG", "FastAPI", "LLM Evaluation"]
+    },
+    {
       "name": "University of Trento",
       "position": "Research Fellow",
       "url": "https://www.unitn.it/",
-      "startDate": "2025-08-01",
-      "summary": "Investigating lung ultrasound images using deep learning and enhancing explainability of LLMs using XAI techniques in the medical domain.",
+      "startDate": "2025-07-01",
+      "endDate": "2026-07-31",
+      "summary": "Designed end-to-end system to classify lung ultrasound videos and investigated XAI evaluation metrics using LIME and attention mechanisms.",
       "highlights": ["Deep Learning", "Medical Imaging", "XAI"]
     },
     {
       "name": "University of Trento — CIMeC",
-      "position": "Research Assistant",
+      "position": "Research Fellow",
       "url": "https://www.cimec.unitn.it/",
       "startDate": "2024-02-01",
-      "endDate": "2025-07-31",
-      "summary": "Investigated the alignment between brain activation data and large language model representations using fMRI data and encoding models.",
+      "endDate": "2026-07-31",
+      "summary": "Examined how removing linguistic properties from text affects alignment between LLMs and fMRI brain responses. Trained LSTM and GPT-2 models to extract language representations and map them to fMRI signals.",
       "highlights": ["Brain–LLM Alignment", "fMRI", "NLP"]
     },
     {

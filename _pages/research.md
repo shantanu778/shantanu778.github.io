@@ -42,7 +42,7 @@ nav_order: 1
     <div class="timeline-item">
       <div class="timeline-header">
         <h3 class="timeline-title">Research Fellow</h3>
-        <span class="timeline-year">2025 – Present</span>
+        <span class="timeline-year">2025 – 2026</span>
       </div>
       <p class="timeline-org">Department of Information Engineering and Computer Science, University of Trento, Italy</p>
       <div class="timeline-desc">
@@ -57,7 +57,7 @@ nav_order: 1
     <div class="timeline-item">
       <div class="timeline-header">
         <h3 class="timeline-title">Research Assistant</h3>
-        <span class="timeline-year">2024 – 2025</span>
+        <span class="timeline-year">2024 – 2026</span>
       </div>
       <p class="timeline-org">Center for Mind and Brain (CIMeC), University of Trento, Rovereto, Italy</p>
       <div class="timeline-desc">

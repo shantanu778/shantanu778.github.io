@@ -11,17 +11,26 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: ML & AI Engineer
+      institution: Trakti, Trento, Italy
+      year: 2026–Present
+      description:
+        - Engineered end-to-end multi-document summarization pipeline using Python, LangChain, and AI model APIs
+        - Developed continuous evaluation framework (LLM-as-a-Judge, RAGAS, TruLens)
+        - Architected production RAG pipeline and hybrid search with dense vector embeddings
+        - Built high-throughput REST APIs using FastAPI and Python async workers
+
     - title: Research Fellow
       institution: Department of Information Engineering and Computer Science, University of Trento, Italy
-      year: 2025–Present
+      year: 2025–2026
       description:
-        - Investigating lung ultrasound images using deep learning
-        - Enhancing explainability of LLMs using XAI techniques in the medical domain
+        - Designed end-to-end system in Python and PyTorch to classify lung ultrasound videos
+        - Investigated evaluation metrics for XAI methods using LIME and attention mechanisms
         - "Supervisor: Prof. Giovanni Iacca"
 
-    - title: Research Assistant
+    - title: Research Fellow
       institution: Center for Mind and Brain (CIMeC), University of Trento, Rovereto, Italy
-      year: 2024–2025
+      year: 2024–2026
       description:
         - Investigating the alignment between brain activation data and large language model representations
         - Working with fMRI data and encoding models

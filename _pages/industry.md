@@ -18,15 +18,31 @@ nav_order: 2
   <div class="timeline">
     <div class="timeline-item">
       <div class="timeline-header">
+        <h3 class="timeline-title">ML &amp; AI Engineer</h3>
+        <span class="timeline-year">2026 – Present</span>
+      </div>
+      <p class="timeline-org">Trakti, Trento, Italy</p>
+      <div class="timeline-desc">
+        <ul>
+          <li>Engineered an end-to-end multi-document summarization pipeline using Python, LangChain, and AI model APIs, processing 1k+ complex documents monthly</li>
+          <li>Developed a continuous evaluation framework (LLM-as-a-Judge, RAGAS, TruLens) to measure accuracy, hallucination rates, and contextual relevance</li>
+          <li>Designed custom guardrails and output validation layers using Pydantic and JSON Schema for 99.8% schema compliance</li>
+          <li>Architected a production RAG pipeline and hybrid search with dense vector embeddings for internal knowledge retrieval</li>
+          <li>Built high-throughput REST APIs using FastAPI and Python async workers</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-header">
         <h3 class="timeline-title">Research Fellow</h3>
-        <span class="timeline-year">2025 – Present</span>
+        <span class="timeline-year">2025 – 2026</span>
       </div>
       <p class="timeline-org">Department of Information Engineering and Computer Science, University of Trento, Italy</p>
       <div class="timeline-desc">
         <ul>
-          <li>Applied deep learning to lung ultrasound image analysis</li>
-          <li>Developing XAI techniques for LLM explainability in the medical domain</li>
-          <li>Working with medical imaging pipelines and clinical data</li>
+          <li>Designed an end-to-end system in Python and PyTorch to classify lung ultrasound videos and evaluate model explainability</li>
+          <li>Investigated evaluation metrics for XAI methods using LIME and attention mechanisms</li>
         </ul>
       </div>
     </div>
